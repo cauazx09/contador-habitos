@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
       <h1>Contador de Hábitos</h1>
+      <input type="text" placeholder="Digite um hábito" />
       <p>Contador: {contador}</p>
       <button onClick={() => setContador(contador + 1)}>+1</button>
       <button onClick={() => setContador(contador <= 1 ? 0 : contador - 1)}>-1</button>
